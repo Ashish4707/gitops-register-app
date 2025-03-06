@@ -17,7 +17,7 @@ spec:
           image: ashish4707/register-app-pipeline:1.0.0-30
           resources:
             limits:
-              memory: "256Mi"
+              memory: "200Mi"
               cpu: "100m"
           ports:
             - containerPort: 8080
